@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .post{
+      font-weight: bolder;
+      text-align: center;
+    }
+    .content1{
+      font-style: italic;
+    }
+    .side{
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="second.html">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ol>
+      <li class="side"><a href="ready.html">Getting ready for the cloud</a></li>
+      <li class="side"><a href="process.html">Process of Migration and Ensuring Succesful Migration</a></li>
+      <li class="side"><a href="post.html">Post Migration Operations</a></li>
+      <li class="side"><a href="issues.html">Issues and Concerns</a></li>
+       </ol>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 class="post">What are the post operations after the organisation has successfully migarated to the cloud?</h1>
+      <h3 class="content1">Changes In The Organisation's Organisation and Environment</h3>
+        <p>Even though the structure and environment will be the same in the cloud service, the company’s employees must be able to adapt to the newly established cloud server. Furthermore, the company needs to create a new department that will be handling and managing the cloud server such as DevOps, Cyber Security and Cloud Architects & Infrastructure. In addition to that, the workers must be fully equipped with the required positions as it may have an impact on the company’s reputation.</p>
+      <h3 class="content1">Testing</h3>
+        <p>Testing is the most crucial step after the successful cloud migration as the company needs to investigate the scale of scalability, performance, and database errors. Not only that, every time they put up an update to the system, they must re-run the operation again to ensure the system is able to operate as intended.</p>
+      <h3 class="content1">Security</h3>
+        <p>To avoid data breach from the third party and handing over to someone to handle confidential property is the most nerve-wrecking decision made by the company as it requires a trustworthy employee and security layer. The company needs to apply identification management and access control, employees' skills & expertise and security system.</p>
+      <h3 class="content1">Downtime</h3>
+        <p>Downtime can cause the company to lose a lot of money and to avoid this, there must be a redundancy backup or build another server on a different location which will cause them another money to invest.</p>
+    </div>
+    <!-- <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p></p>
+      </div>
+      <div class="well">
+        <p></p>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>

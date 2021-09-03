@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Migration Issues and Concerns</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1150px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #37475a;
+      height: 100%;
+    }
+    .navbar-inverse{
+      background-color: #555 !important;
+    }
+    .issues{
+      font-weight: bolder;
+      text-align: center;
+    }
+    .organisations{
+      font-style: italic;
+      font-weight: bold;
+    }
+    .side{
+      font-weight: bold;
+      font-style: italic;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="second.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ol style="color: black;">
+      <li class="side"><a href="ready.html">Getting ready for the cloud</a></li>
+      <li class="side"><a href="choose.html">Choosing the Right Cloud Provider</a></li>
+      <li class="side"><a href="process.html">Process of Migration and Ensuring Succesful Migration</a></li>
+      <li class="side"><a href="issues.html">Issues and Concerns</a></li>
+     </ol> 
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 class="issues" style="text-align: center;">What Are The Concerns And Issues That Are Encountered By Others</h1>
+      <h3 class="organisations">Netflix</h3>
+        <p>When migrating to cloud, Netflix encountered some problems which are hardware failure and slow time response. This is due to IT resources being shared with others. Therefore, Netflix had to develop a software architecture in which even if connected systems fail, individual applications can still succeed.</p>
+        <p>Although the benefits offered by AWS to Netflix are obvious by now, Netflix still took 7 years to completely migrate to cloud. This is because they had to rebuild all their technologies and structurally change the way they operate their company. Netflix migrating to AWS involved a lot of hard work and they had to make many difficult choices along the way. </p>
+      <h3 class="organisations">Aspire</h3>
+        <p>The process of migrating several applications and platforms to the AWS Cloud is time-consuming</p>
+        <p>When using the program from several geo-locations, it performs poorly.</p>
+      <h1 class="issues">What Are The Pitfalls To Be Avoided</h1>
+      <h3 class="organisations">Migrating Without A Business Goals</h3>
+        <p>Having a business goals is important because it can lead to different strategies for company cloud migration. It also helps to understand why theres a need for cloud migration and what can the company gain from this migration.</p>
+      <h3 class="organisations">Selecting The Wrong Migration Approach</h3>
+        <p>Choosing migration approach should be depending on what the customers needs because choosing cloud is like choosing the right engine to deliver better customer experiences. If a company chooses the wrong approach, they might spend a quiet amount of money and not achieve their goals. This happened because many organization do not spend enough time studying different migration approach before deciding which one is the best.</p>
+      <h3 class="organisations">Moving Everything At Once</h3>
+        <p>Many companies believe that once they are ready for migration, they need to move everything at once which is wrong because they might expose to the risk of data breaches. Organization needs to remember that not every systems need to migrate to cloud. It best to analyze first which aspect of the business would benefit from using cloud services.</p>
+      <h3 class="organisations">Transferring The Confidential Data First</h3>
+        <p>This is one of the common mistake business do, transferring the most sensitive data first. This increase the risk of mistakes as they are yet to get comfortable with the new technologies. It is advisable for companies to migrate the common information first to limit the risk against any mistakes. As they get more comfortable with the cloud technologies, they may slowly start transferring the sensitive data to cloud.</p>
+      <h3 class="organisations">Miscalculate The Number Of Workload Involving In Integration</h3>
+        <p>This is one of the biggest reasons for failure where many companies thinks that this process is easy especially taking the existing apps and putting them in cloud. Its deployment add up another level of complexity even though cloud is known as simple and less risky substitute compare to on-premise. Because many businesses are layering cloud solutions on top of legacy systems and software, it's critical to make sure the solution you choose can interact with your existing systems.</p>
+      <h3 class="organisations">Failed To Build A Reasonable Business Case</h3>
+        <p>This can happen because businesses are more focus on ability to enter a new markets and gain new customers faster with these cloud technologies rather than cost saving.</p>
+      <h3 class="organisations">Neglecting Cloud Security</h3>
+        <p>One of the reasons why there’s failure in cloud migration is because many businesses overlook the needs for them to protect their data throughout the migration process. Companies should think strategically and review the data security pros and cons when migrating to cloud, especially protecting their sensitive data.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <!-- <div class="well">
+        <p></p>
+      </div>
+      <div class="well">
+        <p></p>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center"> 
+</footer>
+
+</body>
+</html>

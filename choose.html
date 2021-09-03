@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cloud Provider Selection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 1850px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #37475a;
+      height: 100%;
+    }
+    .navbar-inverse{
+      background-color: #555 !important;
+    }
+    .choose{
+      font-weight: bolder;
+      text-align: center;
+    }
+    h3{
+      font-style: italic;
+      font-weight: bold;
+    }
+    .side{
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="second.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ol style="color: black;">
+      <li class="side"><a href="ready.html">Getting ready for the cloud</a></li>
+      <li class="side"><a href="choose.html">Choosing the Right Cloud Provider</a></li>
+      <li class="side"><a href="process.html">Process of Migration and Ensuring Succesful Migration</a></li>
+      <li class="side"><a href="issues.html">Issues and Concerns</a></li>
+     </ol>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 style="font-weight: bolder; text-align: center;">How To Choose The Right Provider</h1>
+        <h2 class="choose">Business Health and Processes</h2>
+          <h3 class="choosing">Financial Health</h3>
+            <p>The provider should have a track record of stability and be in a good financial position with enough capital to function successfully over time.</p>
+          <h3 class="choosing">Organsisation, Governance, Planning and Risk Management</h3>
+            <p>The provider should have a formal management structure, risk management rules in place, and a formal process in place for evaluating third-party service providers and vendors.</p>
+          <h3 class="choosing">Trust</h3>
+            <p>You should be a fan of the company and its values. Examine the provider's reputation and find out who its partners are. Determine its amount of cloud experience. Read reviews and talk to consumers who are in a similar situation to yours.</p>
+          <h3 class="choosing">Business Knowledge and Technical Know-How</h3>
+            <p>The provider should understand your company and what you want to accomplish, and be able to match it with their technological competence.</p>
+          <h3 class="choosing">Compliance Audit</h3>
+            <p>A third-party audit should be able to validate the provider's compliance with all of your standards.</p>
+        <h2 class="choose">Administration Support</h2>
+          <h3 class="choosing">Service Level Agreements (SLAs)</h3>
+            <p>Providers should be able to guarantee a baseline level of service that you are satisfied with.</p>
+          <h3 class="choosing">Performance Rating</h3>
+            <p>The service provider should be able to offer you with performance reports.</p>
+          <h3 class="choosing">Resource Monitoring</h3>
+            <p>There should be enough controls in place for the provider to track and monitor the services supplied to clients as well as any changes made to their systems.</p>
+          <h3 class="choosing">Billing and Accounting</h3>
+            <p>This should be automatic so you can keep track of what resources you're utilizing and how much they're costing you so you don't run up unexpected expenditures. There should also be assistance with billing difficulties.</p>
+        <h2 class="choose">Technical capabilities and Processes</h2>
+          <h3 class="choosing">Ease of Deployment, Management and Upgrade</h3>
+            <p>Check to see if the provider has processes in place to help you deploy, manage, and upgrade your software and applications.</p>
+          <h3 class="choosing">Standard Interfaces</h3>
+            <p>The provider should use common APIs and data transformations so that your company may quickly construct cloud connections.</p>
+          <h3 class="choosing">Event Management</h3>
+            <p>The service provider should have a formal event management system that is connected with its monitoring/management system.</p>
+          <h3 class="choosing">Change Management</h3>
+            <p>Changes should be requested, logged, approved, tested, and accepted using documented and formal processes.</p>
+          <h3 class="choosing">Hybrid Capability</h3>
+            <p>Even if you do not intend to employ a hybrid cloud at first, you should ensure that the provider supports this approach. It provides benefits that you may want to take advantage of in the future.</p>
+        <h2 class="choose">Security Practices</h2>
+          <h3 class="choosing">Security Infrastructure</h3>
+            <p>A complete security architecture should be in place for all levels and types of cloud services.</p>
+          <h3 class="choosing">Secuity Policies</h3>
+            <p>Comprehensive security policies and procedures should be in place to control access to provider and customer systems.</p>
+          <h3 class="choosing">Identity Management</h3>
+            <p>Changes to any application service or hardware component should be approved on a personal or group role basis, and anyone changing an application or data should be required to authenticate.</p>
+          <h3 class="choosing">Data Backup and Retention</h3>
+            <p>Policies and procedures should be in place and operating to ensure the integrity of consumer data.</p>
+          <h3 class="choosing">Physical Security</h3>
+            <p>Physical security controls, including access to co-located gear, should be in place. Furthermore, environmental safeguards should be installed in data centers to protect equipment and data from disruptive events. A written disaster recovery and business continuity plan, as well as redundant networking and power, should be in place.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <!-- <div class="well">
+        <p></p>
+      </div>
+      <div class="well">
+        <p></p>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+</footer>
+
+</body>
+</html>

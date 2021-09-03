@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Migration Process</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 2550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #37475a;
+      height: 100%;
+    }
+     .navbar-inverse{
+      background-color: #555 !important;
+    }
+    .process, .phase, .ensuring, .content1{
+      font-style: italic;
+      font-weight: bold;
+    }
+    .side{
+      font-weight: bold;
+      font-style: italic;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="second.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ol style="color:black;">
+      <li class="side"><a href="ready.html">Getting ready for the cloud</a></li>
+      <li class="side"><a href="choose.html">Choosing the Right Cloud Provider</a></li>
+      <li class="side"><a href="process.html">Process of Migration and Ensuring Succesful Migration</a></li>
+      <li class="side"><a href="issues.html">Issues and Concerns</a></li>
+     </ol>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 style="font-weight:bolder; text-align: center;" >This is the process of how the organisation migrated to the cloud</h1>
+        <h3 class="process">Establish The Migration Architect Role</h3>
+          <p>Migration architect is the defining of its architectural structure and meeting the system requirement to ensure the successful cloud migration.</p>
+        <h3 class="process">Choose Your Level of Cloud Migration</h3>
+          <p>In moving from on premises to the cloud storage there are two level to chosen from, first is the shallow cloud integration where you do not need a deep configuration and leave the cloud system as it is to move your data to the cloud, and secondly is called deep cloud integration where you full modified the application to use the uniqueness of the system.</p>
+        <h3 class="process">Establish Cloud KPIs</h3>
+          <p>Key Performance Indicator or KPI is to measure your performance whether your migration is a successful or not. In addition to that, it also oversees the visible and invisible issues that lurk in your system.</p>
+        <h3 class="process">Establish Performance Baselines</h3>
+          <p>Measuring the current migration process will define your future migration as it will determine whether you will keep it the way it is or any additional upgrade to meet your expectation. During the performance measurement, you can also see through the problem that comes up during the process.</p>
+        <h3 class="process">Prioritise Migration Components</h3>
+          <p>it is recommended to migrate the resource that is closest to your customer as it is the most important factor in your businesses, and then follow up by the less important resource in your system.</p>
+        <h3 class="process">Perform Any Necessary Refactoring</h3>
+          <p>It is best to modify the application for the best environment when it has been migrated to the cloud.</p>
+        <h3 class="process">Create a Data Migration Plan</h3>
+          <p>There are options involved in this process, first is the bi-directional syncing where you're on premises data is deleted once all of your resources has been moved to the cloud. Secondly, using on-premises data with one way synchronization to the cloud. This is where you let your customer use the data on the premises, and you can disable it once you are ready to migrate to the cloud and make it your main database.</p>
+        <h3 class="process">Switch Over Production</h3>
+          <p>There are two approaches in this matter, first you move all your resources and services to the cloud and then you can switch your network traffic from on premise to the cloud premise.</p>
+
+        <h2 style="font-weight:bolder; text-align: center;">The Phases of Cloud Migration</h2>
+          <h3 class="phase">Preparation and Planning</h3>
+            <p>You need to know why you are migrating to the cloud as the team can comprehend your objectives.</p>
+          <h3 class="phase">Portfolio Planning</h3>
+            <p>This is depending on the complexity of the required system; the team will be mapping out various technologies and applications to be added to the system.</p>
+          <h3 class="phase">Application Design, Migration and Validation</h3>
+            <p>The application will be designed for the sake of environment and user friendly to its consumer. In addition to that, it is best to have the same environment in the cloud like as it is on premises. Furthermore, the 6 R’s process in involved to move the resource on premise to the cloud premise.</p>
+          <h3 class="phase">Modern Operating Model</h3>
+            <p> it is best to have the best performance on the cloud premise that can adapt to the modern and competitive era. Before you enable your cloud premise to your consumer, it is best to test out the performance and update the effectiveness.</p>
+      <h1 style="font-weight: bold; text-align: center;" id="successful">This is how we can ensure the migration to be successful</h1>
+            <p style="font-size: 1.2em;">Understand the requirements, tasks and the purpose of migration. 
+            Before deciding to move to cloud, the business must decide why they want to move. From this, the migration can be further analyze on what needs to be migrated to cloud and whats not. Other than that, businesses must understand the requirement because this helps to handle any problem arise during or post-migration processes. This can be done by verifying the program architecture and most importantly the migration strategy. Nevertheless, it is also important to understand the tasks and processes to be execute to avoid any potential risk. 
+            Netflix surprisingly followed this step where Netflix were looking something that provides low-cost architecture and scalable system. 
+            </p>
+        <h3 class="ensuring">Examine The Migration Process</h3>
+          <p>This process is carried out after assessing the requirements where migration process are break down for the system engineers to understand process and enable them to handle any difficulties that comes along the migration process. 
+          </p>
+        <h3 class="ensuring">Designing and Re-program</h3>
+          <p>After examine the migration process, it is advisable to design the application and architecture before migrating. This step can help ensure the system work properly and help avoid any problems that might arise during post-migration. To do so, it is best to choose what data that need to be move first and choose the components for migrating to cloud. Once the components are ready, it is time to re-program the business application. The re-programmed application then needs to be reintegrate with the cloud-based application environment for implementation over the cloud.
+          </p>
+        <h3 class="ensuring">Carry Out Continuous Testing</h3>
+          <p>It is best to conduct consecutive testing with different scenarios and cloud-based environment. This helps to identify inaccuracy that correlated with the application, the cloud environment and functionalities. Simultaneously, can give businesses a chance to resolve the errors before it leads to major break-down due to severe bugs. 
+          </p>
+        <h3 class="ensuring">Have A Back Up</h3>
+          <p>A wise move before migrating is too have a back up for either large or micro-level programs that its input determined by the existing system. This keeps the system away from any process collapse in the future and any data loss during or after migration process. Other than that, back up helps the system to resume processing quickly after migration and deployment phase.
+          </p>
+        <h3 class="ensuring">Manage Cloud Program and Conduct Training</h3>
+          <p>To ensure successful cloud migration, it is a strategic move to make managing and synchronizing the data, application and environment a habit. This move helps business to maintain contact with the latest changes and progress in the application. Additionally, it also helps businesses to avoid any instability in the program. Apart from that, giving the employees a proper training to ensure that they are comfortable using the cloud applications and tools are preferable.
+          </p>
+        <p style="font-size: 1.2em">On top of that, choosing the right service provider is also important. Choose a service provider that able to fulfill the requirement given and also can ensure you that they able to provide the best methods to ensure successful migration to cloud.
+        </p>
+    <h1 style="font-weight:bolder; text-align: center;">What are the post operations after the organisation has successfully migarated to the cloud?</h1>
+      <h3 class="content1">Changes In The Organisation's Organisation and Environment</h3>
+        <p>Even though the structure and environment will be the same in the cloud service, the company’s employees must be able to adapt to the newly established cloud server. Furthermore, the company needs to create a new department that will be handling and managing the cloud server such as DevOps, Cyber Security and Cloud Architects & Infrastructure. In addition to that, the workers must be fully equipped with the required positions as it may have an impact on the company’s reputation.</p>
+      <h3 class="content1">Testing</h3>
+        <p>Testing is the most crucial step after the successful cloud migration as the company needs to investigate the scale of scalability, performance, and database errors. Not only that, every time they put up an update to the system, they must re-run the operation again to ensure the system is able to operate as intended.</p>
+      <h3 class="content1">Security</h3>
+        <p>To avoid data breach from the third party and handing over to someone to handle confidential property is the most nerve-wrecking decision made by the company as it requires a trustworthy employee and security layer. The company needs to apply identification management and access control, employees' skills & expertise and security system.</p>
+      <h3 class="content1">Downtime</h3>
+        <p>Downtime can cause the company to lose a lot of money and to avoid this, there must be a redundancy backup or build another server on a different location which will cause them another money to invest.</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <!-- <div class="well">
+        <p></p>
+      </div>
+      <div class="well">
+        <p></p>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+</footer>
+</body>
+</html>
